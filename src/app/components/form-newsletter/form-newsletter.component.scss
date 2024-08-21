@@ -1,0 +1,96 @@
+.section-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    .box__text {
+        width: 50%;
+    box-sizing: border-box;
+    padding: 25px 0;
+
+    }
+    .box__text h2 {
+        font-family: "roboto", sans-serif;
+        font-size: 40px;
+        color: #fff;
+        margin: 20px 0;
+        text-align: left;
+
+    }
+    .box__text p {
+        font-family: "poppins", sans-serif;
+    margin: 20px 0;
+    color: #fff;
+    }
+
+    .box__form {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box__form form {
+        width: 80%;
+    }
+    .box__form .box__form-input {
+        input {
+            width: 100%;
+            padding: 15px;
+            background-color: transparent;
+            border-bottom: 2px solid #fff;
+            border-style: double;
+            border-top: transparent;
+            border-right: transparent;
+            border-left: transparent;
+            margin: 20px 0;
+     
+        }
+
+        label {
+            color: #fff;
+            gap: 60px;
+            font-size: 16px;
+            font-family: "poppins", sans-serif;
+
+        }
+
+   
+
+        
+    }
+    .box__form-submit {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 80%;
+    .btn-submit {
+        background-color: #fff;
+        padding: 20px 45px;
+        border-radius: 40px;
+        margin: 25px 0;
+        color: #000;
+        font-weight: bold;
+        font-family: "poppins", sans-serif;
+    }
+
+}
+}
+
+@media only screen and (max-width:576px) {
+    .section-form {
+        flex-direction: column;
+
+    .box__text {
+        width: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+
+    }
+    .box__form {
+        width: 100%;
+    }
+}
+}
